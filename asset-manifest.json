@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf25d131.css",
-    "main.js": "/static/js/main.91024a21.js",
-    "static/media/sonmoive.png": "/static/media/sonmoive.f7149217653e9d6c7f08.png",
-    "static/media/shop_cars.png": "/static/media/shop_cars.d38c29be257680ca3611.png",
-    "static/media/shop_clothes.png": "/static/media/shop_clothes.861ba40584ec195fba9d.png",
-    "static/media/project_1.png": "/static/media/project_1.ae04727656120630303f.png",
-    "static/media/banner__icon.png": "/static/media/banner__icon.191a2a00548b36560c9f.png",
-    "static/media/bg.png": "/static/media/bg.50505726f01b54627e2f.png",
-    "index.html": "/index.html",
-    "main.cf25d131.css.map": "/static/css/main.cf25d131.css.map",
-    "main.91024a21.js.map": "/static/js/main.91024a21.js.map"
+    "main.css": "/website-portfolio/static/css/main.4c29b2b5.css",
+    "main.js": "/website-portfolio/static/js/main.aa5e276a.js",
+    "static/media/sonmoive.png": "/website-portfolio/static/media/sonmoive.f7149217653e9d6c7f08.png",
+    "static/media/shop_cars.png": "/website-portfolio/static/media/shop_cars.d38c29be257680ca3611.png",
+    "static/media/shop_clothes.png": "/website-portfolio/static/media/shop_clothes.861ba40584ec195fba9d.png",
+    "static/media/project_1.png": "/website-portfolio/static/media/project_1.ae04727656120630303f.png",
+    "static/media/banner__icon.png": "/website-portfolio/static/media/banner__icon.191a2a00548b36560c9f.png",
+    "static/media/bg.png": "/website-portfolio/static/media/bg.50505726f01b54627e2f.png",
+    "index.html": "/website-portfolio/index.html",
+    "main.4c29b2b5.css.map": "/website-portfolio/static/css/main.4c29b2b5.css.map",
+    "main.aa5e276a.js.map": "/website-portfolio/static/js/main.aa5e276a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf25d131.css",
-    "static/js/main.91024a21.js"
+    "static/css/main.4c29b2b5.css",
+    "static/js/main.aa5e276a.js"
   ]
 }
