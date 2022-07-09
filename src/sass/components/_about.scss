@@ -1,0 +1,49 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  align-items: center;
+  background-color: #ebebeb;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  &__info {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  &__desc {
+    font-size: 1.6rem;
+    line-height: calc(5 / 1.6);
+    text-align: left;
+  }
+  &__icon {
+    font-size: 3rem;
+    text-align: center;
+    i {
+      margin: 2rem 5rem 3rem 0;
+    }
+  }
+
+  &__html {
+    color: #F16529;
+  }
+  &__css {
+    color:#32A9DC;
+  }
+  &__sass {
+    color: #CD6699;
+  }
+  &__redux {
+    color: #7147B3;
+  }
+  &__react {
+    color: #007ACC;
+  }
+  &__javascript {
+    color: #F7E01B;
+    background-color: #000;
+  }
+  &__tailwindcss {
+    color: #37BDF8;
+  }
+}

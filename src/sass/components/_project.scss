@@ -1,0 +1,46 @@
+.project {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  column-gap: 3rem;
+  margin: 10rem 0;
+  
+  &__info {
+    @include flex(flex-start,center);
+    flex-direction: column;
+    gap: 3rem 0;
+  }
+  &__title {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  img {
+    max-width: 90%;
+  }
+
+  &__desc {
+    font-size: 1.6rem;
+    line-height: calc(3.4 / 1.6);
+  }
+
+  &__view {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: transparent;
+    background-image: linear-gradient(to right top, #0FAFD4, #9538FC);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__icon {
+    font-size: 50px;
+
+    & * ~ * {
+      margin-left: 20px;
+    }
+  }
+}

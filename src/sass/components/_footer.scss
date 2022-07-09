@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  gap: 0 50px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px 0;
+
+  &__desc{
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 100%;
+    font-weight: 600;
+  }
+
+  &__title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  &__contact {
+    font-size: 5rem;
+    @include flex(center, start);
+    i {
+      margin: 0 2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    & :first-child {
+      color: rgb(255,213,0);
+    }
+    & :nth-child(2) {
+      color:#36A4D2;
+    }
+    & :nth-child(3) {
+      color:#F8705F;
+    }
+    & :nth-child(4) {
+      color: #4869DE;
+    }
+    &:last-child {
+      color: #FF0100;
+    }
+
+  }
+}

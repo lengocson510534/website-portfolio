@@ -1,0 +1,53 @@
+.header {
+  width: 100%;
+  height: $header-height;
+  @include flex(center, flex-start);
+  gap: 0 5rem;
+  font-family: $font-second;
+  padding: 2rem 0;
+
+  &__menu {
+    @include flex(center,center);
+    gap: 0 5rem;
+    &__item {
+      font-size: 2rem;
+      text-transform: capitalize;
+      font-weight: 500;
+      position: relative;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0.4rem;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to right top, #0FAFD4, #9538FC);
+        transition: width 0.5s ease;
+      }
+
+      &:hover {
+        cursor: pointer;
+        &.header__menu__item::after {
+          display: block;
+          width: 100%;
+        }
+      }
+    }
+  }
+  &__logo{
+    font-size: 3rem;
+    font-weight: 800;
+    color: transparent;
+    background-image: linear-gradient(to right top, #0FAFD4, #9538FC);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+.add__project__open {
+  font-size: 3rem;
+  @include flex(center,center);
+  position: absolute;
+  right: 10%;
+}

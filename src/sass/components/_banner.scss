@@ -1,0 +1,48 @@
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: 50rem;
+
+  &__logo {
+    max-width: 32rem;
+    font-size: 3.5rem;
+    position: relative;
+    padding-left: 3rem;
+    font-family: $font-second;
+  }
+  &__icon {
+    position: absolute;
+    width: 5rem;
+    right: -3rem;
+    bottom: -3rem;
+  }
+
+  &__right {
+    font-size: 5rem;
+    @include flex(center, center);
+    i {
+      margin: 0 4rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    & :first-child {
+      color: rgb(255,213,0);
+    }
+    & :nth-child(2) {
+      color:#36A4D2;
+    }
+    & :nth-child(3) {
+      color:#F8705F;
+    }
+    & :nth-child(4) {
+      color: #4869DE;
+    }
+    &:last-child {
+      color: #FF0100;
+    }
+
+  }
+}
